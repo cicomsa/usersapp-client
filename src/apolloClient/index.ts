@@ -17,7 +17,7 @@ const client: any = new ApolloClient({
       if (networkError) console.log(`[Network error]: ${networkError}`);
     }),
     new HttpLink({
-      uri: 'https://cicomsa.github.io/usersapp-server/graphql',
+      uri: 'https://usersappdesk.herokuapp.com/graphql',
       credentials: 'same-origin',
       fetch: fetch
     })
