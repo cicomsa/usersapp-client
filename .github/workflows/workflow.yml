@@ -21,6 +21,6 @@ jobs:
 
       - name: Run deploy script
         run: |
-          git config user.name "@cicomsa" && git config user.email "ioanacomsa85@gmail.com"
+          git config user.name "cicomsa" && git config user.email "ioanacomsa85@gmail.com"
           yarn deploy
          
