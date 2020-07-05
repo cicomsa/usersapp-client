@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/usersapp-client/static/css/main.410257a3.chunk.css",
+    "main.js": "/usersapp-client/static/js/main.53b77d2b.chunk.js",
+    "main.js.map": "/usersapp-client/static/js/main.53b77d2b.chunk.js.map",
+    "runtime-main.js": "/usersapp-client/static/js/runtime-main.5eb2e195.js",
+    "runtime-main.js.map": "/usersapp-client/static/js/runtime-main.5eb2e195.js.map",
+    "static/js/2.66caaf05.chunk.js": "/usersapp-client/static/js/2.66caaf05.chunk.js",
+    "static/js/2.66caaf05.chunk.js.map": "/usersapp-client/static/js/2.66caaf05.chunk.js.map",
+    "index.html": "/usersapp-client/index.html",
+    "precache-manifest.4375ff895963e2eab79b405e49e54ddb.js": "/usersapp-client/precache-manifest.4375ff895963e2eab79b405e49e54ddb.js",
+    "service-worker.js": "/usersapp-client/service-worker.js",
+    "static/css/main.410257a3.chunk.css.map": "/usersapp-client/static/css/main.410257a3.chunk.css.map",
+    "static/js/2.66caaf05.chunk.js.LICENSE.txt": "/usersapp-client/static/js/2.66caaf05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eb2e195.js",
+    "static/js/2.66caaf05.chunk.js",
+    "static/css/main.410257a3.chunk.css",
+    "static/js/main.53b77d2b.chunk.js"
+  ]
+}
