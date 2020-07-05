@@ -1,0 +1,11 @@
+.user-img {
+  margin: 0 5px;
+}
+
+.user-content {
+  border: 1px solid black;
+}
+
+.user-content.user-online {
+  text-align: center
+}
