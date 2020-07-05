@@ -17,6 +17,6 @@ describe('App', () => {
     )
 
     expect(wrapper.find(Homepage)).toHaveLength(1)
-    expect(wrapper.find(Homepage).html()).toMatch('Home')
+    expect(wrapper.find(Homepage).html()).toMatch('asd')
   })
 })

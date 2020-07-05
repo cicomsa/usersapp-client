@@ -2,7 +2,7 @@
   "name": "usersapp-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cicomsa.github.io/",
+  "homepage": "https://cicomsa.github.io/usersapp-client/",
   "dependencies": {
     "@apollo/react-testing": "^3.1.4",
     "@testing-library/jest-dom": "^4.2.4",
