@@ -19,7 +19,7 @@ jobs:
       - name: Clean install dependencies
         run: yarn install
 
-      - name: Check tests
+      - name: Check tests pass
         run: yarn test
 
       - name: Run deploy script
