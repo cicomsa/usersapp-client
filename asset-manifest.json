@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/usersapp-client/static/css/main.410257a3.chunk.css",
-    "main.js": "/usersapp-client/static/js/main.95eff5bf.chunk.js",
-    "main.js.map": "/usersapp-client/static/js/main.95eff5bf.chunk.js.map",
+    "main.js": "/usersapp-client/static/js/main.300097da.chunk.js",
+    "main.js.map": "/usersapp-client/static/js/main.300097da.chunk.js.map",
     "runtime-main.js": "/usersapp-client/static/js/runtime-main.5eb2e195.js",
     "runtime-main.js.map": "/usersapp-client/static/js/runtime-main.5eb2e195.js.map",
     "static/js/2.66caaf05.chunk.js": "/usersapp-client/static/js/2.66caaf05.chunk.js",
     "static/js/2.66caaf05.chunk.js.map": "/usersapp-client/static/js/2.66caaf05.chunk.js.map",
     "index.html": "/usersapp-client/index.html",
-    "precache-manifest.d4a61b59f7c2b8e294d8a9d5a595cf77.js": "/usersapp-client/precache-manifest.d4a61b59f7c2b8e294d8a9d5a595cf77.js",
+    "precache-manifest.71e9f6810286a4e3a9b28ab524a980ed.js": "/usersapp-client/precache-manifest.71e9f6810286a4e3a9b28ab524a980ed.js",
     "service-worker.js": "/usersapp-client/service-worker.js",
     "static/css/main.410257a3.chunk.css.map": "/usersapp-client/static/css/main.410257a3.chunk.css.map",
     "static/js/2.66caaf05.chunk.js.LICENSE.txt": "/usersapp-client/static/js/2.66caaf05.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5eb2e195.js",
     "static/js/2.66caaf05.chunk.js",
     "static/css/main.410257a3.chunk.css",
-    "static/js/main.95eff5bf.chunk.js"
+    "static/js/main.300097da.chunk.js"
   ]
 }
