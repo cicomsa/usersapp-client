@@ -1,23 +1,26 @@
-name: MasterDeployCI
+name: Deploy to github pages
+
 on:
   push:
     branches:
       - master
 jobs:
-  build:
+  gh-pages-deploy:
+    name: Deploying to gh-pages
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install Packages
-      run: npm install
-    - name: Deploy to GH Pages
-      run: npm run deploy
-    - name: Updating Domain
-      run: echo "Update domain"
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1.1.0
+        with:
+          version:  12.x
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Clean install dependencies
+        run: yarn install
+
+      - name: Run deploy script
+        run: |
+          git config user.name "cicomsa" && git config user.email "ioanacomsa85@gmail.com"
+          yarn deploy
+         
