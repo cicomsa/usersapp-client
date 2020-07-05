@@ -22,5 +22,6 @@ jobs:
       - name: Run deploy script
         run: |
           git config user.name "cicomsa" && git config user.email "ioanacomsa85@gmail.com"
+           git remote set-url origin https://${{ secrets.ACCESS_TOKEN }}@github.com/cicomsa/usersapp-client.git
           yarn deploy
          
