@@ -20,5 +20,7 @@ jobs:
         run: yarn install
 
       - name: Run deploy script
-        run: yarn deploy
+        run: |
+          git config --global user.name "cicomsa" && git config --global user.email "ioanacomsa85@gmail.com"
+          yarn deploy
         
